@@ -3,4 +3,6 @@
 ![Screenshot](Images/pic1.png)
 ## Create Department Groups:
 ![Screenshot](Images/pic2.png)
+## User Creation
+### Create Department Admins:
 
