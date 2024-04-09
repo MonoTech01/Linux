@@ -15,6 +15,7 @@
 ![Screenshot](Images/pic7.png)
 ![Screenshot](Images/pic8.png)
 # Confidentiality Document
+## Create Informational File & Protect the File:
 ![Screenshot](Images/pic9.png)
 ![Screenshot](Images/pic10.png)
 ![Screenshot](Images/pic11.png)
@@ -22,3 +23,13 @@
 ![Screenshot](Images/pic13.png)
 ![Screenshot](Images/pic14.png)
 ![Screenshot](Images/pic15.png)
+![Screenshot](Images/pic16.png)
+![Screenshot](Images/pic17.png)
+![Screenshot](Images/pic18.png)
+![Screenshot](Images/pic19.png)
+![Screenshot](Images/pic20.png)
+![Screenshot](Images/pic21.png)
+![Screenshot](Images/pic22.png)
+
+
+
