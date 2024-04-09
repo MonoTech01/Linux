@@ -8,4 +8,6 @@
 ![Screenshot](Images/pic3.png)
 ### Create Regular Department Users:
 ![Screenshot](Images/pic4.png)
+![Screenshot](Images/pic5.png)
+
 
