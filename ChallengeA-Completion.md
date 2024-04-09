@@ -1,6 +1,6 @@
 # Directory and Group Creation
-## Create Department Directories
-### Create a directory at the root (/) of the file system for each department. This name should reflect the department name that will use the directory:
+## Create Department Directories:
 ![Screenshot](Images/pic1.png)
-
+## Create Department Groups:
+![Screenshot](Images/pic2.png)
 
