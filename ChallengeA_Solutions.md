@@ -30,6 +30,12 @@
 ![Screenshot](Images/pic20.png)
 ![Screenshot](Images/pic21.png)
 ![Screenshot](Images/pic22.png)
-
-
+# Deliverables
+![Screenshot](Images/pic23.png)
+![Screenshot](Images/pic24.png)
+![Screenshot](Images/pic25.png)
+![Screenshot](Images/pic26.png)
+![Screenshot](Images/pic27.png)
+![Screenshot](Images/pic28.png)
+![Screenshot](Images/pic29.png)
 
