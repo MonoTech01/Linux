@@ -35,3 +35,5 @@ wc is a command used for counting things in a file.
 ~/uniqueservices.txt specifies the file to be counted.
 
 # Deliverables
+![Linux](/Images/ChallengeD_1.png)
+![Linux](/Images/ChallengeD_2.png)
