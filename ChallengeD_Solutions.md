@@ -4,29 +4,29 @@ cat /etc/services | grep '^[a-zA-Z]' | awk '{print $1}' | sort -u > ~/uniqueserv
 # Explanations
 This is a chain of four Linux commands used to create a file named uniqueservices.txt in your home directory (~).
 
-1. The first one   cat /etc/services
+## cat /etc/services
 cat is a command used to display the contents of a file.
 
 /etc/services is a system file that contains a list of well-known services associated with their port numbers and protocols.
 
-2. The second one   grep '^[a-zA-Z]'
+## grep '^[a-zA-Z]'
 grep is a command used to filter text based on patterns.
 
 ' ^[a-zA-Z] ' is a regular expression that matches lines that start with an alphabet character (either uppercase or lowercase). This filters the output of cat /etc/services to only include lines that represent actual service names (excluding comments or blank lines).
 
-3. The third one   awk '{print $1}'
+## awk '{print $1}'
 awk is a powerful text processing tool.
 
 {} is a block of code that gets executed for each line of input passed to awk.
 
 print $1 inside the block instructs awk to print only the first field (service name) of each line.
 
-3. The last one    sort -u > ~/uniqueservices.txt && wc -l ~/uniqueservices.txt
+## sort -u > ~/uniqueservices.txt && wc -l ~/uniqueservices.txt
 sort is used to arrange lines in a specific order.
 
--u option tells sort to remove duplicate lines, resulting in a unique list of service names.
+-u option tells sort to remove duplicate lines, resulting in a unique list of service names, and > redirects the output of the previous command (awk) to a new file named
 
-> redirects the output of the previous command (awk) to a new file named uniqueservices.txt in your home directory (~).
+uniqueservices.txt in your home directory (~).
 
 wc is a command used for counting things in a file.
 
