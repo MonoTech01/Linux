@@ -17,13 +17,33 @@ In the "New Virtual Machine Wizard," select "Typical (Recommended)" and click "N
 
 ## 2. Specify Guest Operating System
 
+Select the downloaded OS - Ubuntu
+
 ![ubuntu](/Images/lab1-1.2.png)
+
+## 3. Name and Location
+Enter a descriptive name for my virtual machine - Mono. Choose a location on my host machine to store the virtual machine files. Click "Next."
 
 ![ubuntu](/Images/lab1-1.3.png)
 
+## 4. Allocate Disk Size
+
+Decide on the size of the virtual hard disk for Ubuntu. A minimum of 20 GB is recommended, but I can allocate more for future storage needs. Click "Next".
+
 ![ubuntu](/Images/lab1-1.4.png)
 
+## 5. Customize Hardwares as needed + Create a Virtual Disk
+Examples:
+
+Allocate RAM (Memory): Assign a suitable amount of RAM to the virtual machine. The recommended minimum is 2 GB, but I can allocate more depending on my host machine's capabilities and Ubuntu's resource requirements. Click "Next". 
+
+Choose Disk Type: Keep the default selection for disk controller type. Click "Next".
+
+Specify Processor Cores: Allocate the desired number of processor cores (CPUs) to the virtual machine. Consider my host machine's resources and the intended workload for Ubuntu. A good starting point is 2 cores. Click "Next."
+
 ![ubuntu](/Images/lab1-1.5.png)
+
+## Install Ubuntu Server
 
 ![ubuntu](/Images/lab1-1.6.png)
 
