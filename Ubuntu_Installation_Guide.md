@@ -32,7 +32,7 @@ Decide on the size of the virtual hard disk for Ubuntu. A minimum of 20 GB is re
 
 ![ubuntu](/Images/lab1-1.4.png)
 
-## 5. Customize Hardwares as needed + Create a Virtual Disk
+## 5. Customize Hardwares as needed + Create a VM
 Examples:
 
 Allocate RAM (Memory): Assign a suitable amount of RAM to the virtual machine. The recommended minimum is 2 GB, but I can allocate more depending on my host machine's capabilities and Ubuntu's resource requirements. Click "Next". 
