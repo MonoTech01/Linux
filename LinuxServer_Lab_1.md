@@ -3,7 +3,6 @@
 Submit a screenshot displaying the netplan yaml file and that the IP address was changed.
 
 Submit a screenshot displaying the new hostname.
- 
 
 # Part 2. Install stress-ng
 
@@ -22,4 +21,14 @@ Submit a screenshot with the cockpit login screen.
 
 # Part 6. Restrict access to SSH
 Modify your server’s SSH configuration to allow  only the RemoteUsers group to use the SSH services. Add Bob to the RemoteUsers group. Submit a screenshot of Bob and Alice's attempt to SSH to the lst1 server.
+
+-----------------------------------------------------
+# Performance
+# Part 1
+## Access the network
+### ip address + ip route
+
+### download netplan
+
+
 
