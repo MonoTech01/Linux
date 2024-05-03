@@ -79,7 +79,7 @@ Using this command: sudo apt install stress-ng
 ## Part 3: 
 ### Create Bob and Alice accounts
 ### Set passwords for Bob and Alice
-I set a super simple password for each user. This is just for a learning purpose. Please always create complex passwords!
+- Note: I set a super simple password for each user. This is just for a learning purpose. Please always create complex passwords!
 Bob's account - bob123
 Alice's account - alice123
 ### Create an adminjr group
@@ -89,8 +89,18 @@ Alice's account - alice123
 
 
 ### Attempt to change Alice's password -> It should fail!!!
-### Configure the adminjr group to change passwords
+### Configure the adminjr group to change passwords = 
+- adminjr(password: group123). Note: I set a super simple password. This is just for a learning purpose. Please always create complex passwords!
+- Command:
+  sudo visudo
 
+  %adminjr ALL=(ALL) /usr/bin/passwd
+
+# Part 4: Install SAR execute the cpubusy script and show CPU stress
+## Install sysstat
+What is sysstat?
+
+  
 
 
 
