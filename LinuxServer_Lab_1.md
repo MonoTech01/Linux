@@ -189,16 +189,19 @@ sudo groupadd RemoteUsers.
 
 sudo usermod -aG RemoteUsers bob.
 
-- Modify SSH configuration by editing the SSH configuration file: sudo nano /etc/ssh/sshd_config and adding an AllowGroups line and include "RemoteUsers" in it: AllowGroups RemoteUsers.
-
-- Restart the SSH service
-
-sudo systemctl restart ssh
-After starting ssh, Alice cannot access the server remotely!
-
+- Modify SSH configuration by editing the SSH configuration file: sudo nano /etc/ssh/sshd_config and adding an AllowGroups line and include "RemoteUsers" in it: AllowGroups RemoteUsers
 
 - Verify SSH access with Bob's account
   
+- Verify SSH access with Alice's account
+
+# Troubleshooting
+## Problem: Alice can access the Mono's server by ssh
+## How to fix
+- Restart the SSH service with the command sudo systemctl restart ssh
+After starting ssh, Alice cannot access the server remotely!
+  
+
 
 
 
