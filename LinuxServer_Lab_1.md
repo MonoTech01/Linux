@@ -71,34 +71,76 @@ So cool! It worked. Now, the IP changed as I set up!
 
 # Part 2:
 ## What is stress-ng?
-- Stress-ng is a tool for stressing your Ubuntu system's CPU, memory, disk, and network. It's like a virtual gym to test stability, benchmark performance, and help debug issues by simulating heavy workloads and pushing your system to its limits. 
+- Stress-ng is a tool for stressing your Ubuntu system's CPU, memory, disk, and network. It's like a virtual gym to test stability, benchmark performance, and help debug issues by simulating heavy workloads and pushing your system to its limits.
 - Redhat: "The stress-ng tool is a stress workload generator to load and stress all kernel interfaces". Link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux_for_real_time/8/html/optimizing_rhel_8_for_real_time_for_low_latency_operation/assembly_stress-testing-real-time-systems-with-stress-ng_optimizing-rhel8-for-real-time-for-low-latency-operation#:~:text=The%20stress%2Dng%20tool%20measures,and%20stress%20all%20kernel%20interfaces.  
 ## Install stress-ng
 Using this command: sudo apt install stress-ng
 
+![LinuxIP](Images/Linuxlab_9.png)
+
 ## Part 3: 
 ### Create Bob and Alice accounts
+![LinuxIP](Images/Linuxlab_10.png)
+
 ### Set passwords for Bob and Alice
 - Note: I set a super simple password for each user. This is just for a learning purpose. Please always create complex passwords!
+
 Bob's account - bob123
+
 Alice's account - alice123
+
+![LinuxIP](Images/Linuxlab_12.png)
+
+
 ### Create an adminjr group
+![LinuxIP](Images/Linuxlab_11.png)
+
 ### Login as Bob
 - su in this case stands for substitute user, NOT sudo.
+
+![LinuxIP](Images/Linuxlab_13.png)
+  
 - log out Bob's account by typing "exit".
-
-
+  
 ### Attempt to change Alice's password -> It should fail!!!
-### Configure the adminjr group to change passwords = 
+![LinuxIP](Images/Linuxlab_21.png)
+
+### Add Bob to the group adminjr
+![LinuxIP](Images/Linuxlab_16.png)
+
+### Configure the adminjr group to change passwords
 - adminjr(password: group123). Note: I set a super simple password. This is just for a learning purpose. Please always create complex passwords!
 - Command:
+  
   sudo visudo
 
+![LinuxIP](Images/Linuxlab_22.png)
+  
   %adminjr ALL=(ALL) /usr/bin/passwd
+![LinuxIP](Images/Linuxlab_23.png)
+
+- Change Alice's password from Bob's account
+  
+![LinuxIP](Images/Linuxlab_24.png)
+
+- Verify with Alice's new pasword -> It worked!
+
+![LinuxIP](Images/Linuxlab_20.png)
 
 # Part 4: Install SAR execute the cpubusy script and show CPU stress
 ## Install sysstat
-What is sysstat?
+What is sysstat? It is a tool for monotoring system performance and resources
+Link: https://www.geeksforgeeks.org/linux-sysstat-utilities-for-monitoring-system-performance/
+
+## Install
+![LinuxIP](Images/Linuxlab_25.png)
+
+## Verify
+![LinuxIP](Images/Linuxlab_26.png)
+
+or 
+
+![LinuxIP](Images/Linuxlab_27.png)
 
 # Part 5
 
