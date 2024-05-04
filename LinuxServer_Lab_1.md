@@ -123,7 +123,7 @@ Alice's account - alice123
   
 ![LinuxIP](Images/Linuxlab_24.png)
 
-- Verify with Alice's new pasword -> It worked!
+- Verify with Alice's new pasword -> It worked! (New Password: Hi123)
 
 ![LinuxIP](Images/Linuxlab_20.png)
 
@@ -170,6 +170,35 @@ After that, press Ctrl C to stop the python file from running
 # Part 5: Install Cockpit
 
 ## Install
+
+Using this command: sudo apt install cockpit
+
+## Enable 
+
+Using this command: sudo systemctl enable --now cockpit.socket
+
+## Access Cockpit from my pc's a web browser 
+
+## Part 6:  Restrict access to SSH
+
+### Modify your server’s SSH configuration to allow only the RemoteUsers group to use the SSH services
+- Create the "RemoteUsers" group
+sudo groupadd RemoteUsers.
+
+- Add Bob to the "RemoteUsers" group
+
+sudo usermod -aG RemoteUsers bob.
+
+- Modify SSH configuration by editing the SSH configuration file: sudo nano /etc/ssh/sshd_config and adding an AllowGroups line and include "RemoteUsers" in it: AllowGroups RemoteUsers.
+
+- Restart the SSH service
+
+sudo systemctl restart ssh
+After starting ssh, Alice cannot access the server remotely!
+
+
+- Verify SSH access with Bob's account
+  
 
 
 
