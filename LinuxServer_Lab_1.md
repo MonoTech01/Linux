@@ -128,21 +128,50 @@ Alice's account - alice123
 ![LinuxIP](Images/Linuxlab_20.png)
 
 # Part 4: Install SAR execute the cpubusy script and show CPU stress
-## Install sysstat
+
 What is sysstat? It is a tool for monotoring system performance and resources
 Link: https://www.geeksforgeeks.org/linux-sysstat-utilities-for-monitoring-system-performance/
 
-## Install
+## Install sysstat
 ![LinuxIP](Images/Linuxlab_25.png)
 
-## Verify
+## Verify the installation
 ![LinuxIP](Images/Linuxlab_26.png)
 
 or 
 
 ![LinuxIP](Images/Linuxlab_27.png)
 
-# Part 5
+## Download cpubusy.py that is provided from the lab in my computer
+### Install WinSCP to transfer the python file to my Mono's VM
+SCP is r Secure Copy protocol using SSH!!!
+
+Link: https://winscp.net/download/WinSCP-6.3.3-Setup.exe/download 
+
+- Check IP's address of the VM
+
+- Log in 
+
+- Transfer the file to the VM
+
+## Run the python file on the VM
+
+Using the command: python3 cpubusy.py
+
+Result:
+
+## Monitor CPU performance by using SAR from my pc's Powershell
+I have 2 CPU for my Vm, so it is quite strong and not get exhausted with the python file running!
+
+Note: CPU is about what actions and intructions the computer can take! 
+
+After that, press Ctrl C to stop the python file from running 
+
+# Part 5: Install Cockpit
+
+## Install
+
+
 
   
 
