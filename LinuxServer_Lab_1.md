@@ -146,17 +146,30 @@ or
 ### Install WinSCP to transfer the python file to my Mono's VM
 SCP is r Secure Copy protocol using SSH!!!
 
+![LinuxIP](Images/Linuxlab_28.png)
+
+
 Link: https://winscp.net/download/WinSCP-6.3.3-Setup.exe/download 
 
 - Check IP's address of the VM
 
-- Log in 
+![LinuxIP](Images/Linuxlab_29.png)
+
+- Log in
+
+![LinuxIP](Images/Linuxlab_31.png)
+  
 
 - Transfer the file to the VM
+  
+![LinuxIP](Images/Linuxlab_30.png)
+
 
 ## Run the python file on the VM
 
 Using the command: python3 cpubusy.py
+
+![LinuxIP](Images/Linuxlab_32.png)
 
 Result:
 
@@ -164,6 +177,14 @@ Result:
 I have 2 CPU for my Vm, so it is quite strong and not get exhausted with the python file running!
 
 Note: CPU is about what actions and intructions the computer can take! 
+
+### Access SSH
+
+![LinuxIP](Images/Linuxlab_33.png)
+
+### SAR
+
+![LinuxIP](Images/Linuxlab_34.png)
 
 After that, press Ctrl C to stop the python file from running 
 
@@ -177,7 +198,13 @@ Using this command: sudo apt install cockpit
 
 Using this command: sudo systemctl enable --now cockpit.socket
 
+![LinuxIP](Images/Linuxlab_36.png)
+
+
 ## Access Cockpit from my pc's a web browser 
+
+![LinuxIP](Images/Linuxlab_35.png)
+
 
 ## Part 6:  Restrict access to SSH
 
@@ -190,20 +217,31 @@ sudo groupadd RemoteUsers.
 sudo usermod -aG RemoteUsers bob.
 
 - Modify SSH configuration by editing the SSH configuration file: sudo nano /etc/ssh/sshd_config and adding an AllowGroups line and include "RemoteUsers" in it: AllowGroups RemoteUsers
+  
+![LinuxIP](Images/Linuxlab_37.png)
 
 - Verify SSH access with Bob's account
+
+![LinuxIP](Images/Linuxlab_38.png)
+
   
 - Verify SSH access with Alice's account
+
+  Alice can access SSH => Problem!!!!!!!!!
+
+![LinuxIP](Images/Linuxlab_39.1_Troubleshoot.png)
 
 # Troubleshooting
 ## Problem: Alice can access the Mono's server by ssh
 ## How to fix
-- Restart the SSH service with the command sudo systemctl restart ssh
-After starting ssh, Alice cannot access the server remotely!
-  
+- Restart the SSH service with the command sudo systemctl restart ssh. After starting ssh, Alice cannot access the server remotely!
 
+![LinuxIP](Images/Linuxlab_39.2_Troubleshoot.png)
 
+![LinuxIP](Images/Linuxlab_39.3_Troubleshoot.png)
 
+### Verify
+![LinuxIP](Images/Linuxlab_39_Troubleshoot.png)
 
   
 
