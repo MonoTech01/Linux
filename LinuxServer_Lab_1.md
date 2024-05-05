@@ -232,16 +232,20 @@ sudo usermod -aG RemoteUsers bob.
 ![LinuxIP](Images/Linuxlab_39.1_Troubleshoot.png)
 
 # Troubleshooting
-## Problem: Alice can access the Mono's server by ssh
+## Problem: Alice can access the Mono's server by ssh. Although, Alice is not in the group!
+
+![LinuxIP](Images/Linuxlab_39_Troubleshoot.png)
+
+
 ## How to fix
 - Restart the SSH service with the command sudo systemctl restart ssh. After starting ssh, Alice cannot access the server remotely!
-
+  
 ![LinuxIP](Images/Linuxlab_39.2_Troubleshoot.png)
 
+
+## Verify
 ![LinuxIP](Images/Linuxlab_39.3_Troubleshoot.png)
 
-### Verify
-![LinuxIP](Images/Linuxlab_39_Troubleshoot.png)
 
   
 
