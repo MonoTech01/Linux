@@ -11,10 +11,9 @@
 - After logging in submit a screenshot of the warning.
 
  
-
 # 3
 
-- Install the at service. Your output should include the service is active and running.
+- Install the at service. Your output should include the service is active and runnin
 - Submit a screenshot using systemctl with the status of the atd service.
 
 # 4
@@ -35,3 +34,11 @@
 
 -------------------------------------------------------------------------------------------------------------------
 # Performance
+# 1
+ssh-keygen -t ed25519 -C "lst2
+
+ssh-keygen: This is the command used to generate SSH key pairs.
+
+-t ed25519: This option specifies the type of key to generate. In this case, it's set to ed25519, which is a modern and secure elliptic curve cryptography (ECC) algorithm for SSH keys.
+
+-C "lst2": This option adds a comment to the generated key pair. The comment here is set to "lst2", which can be helpful for identifying the key's purpose or association with a specific server (like lst2 in this case).
