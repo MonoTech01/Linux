@@ -11,5 +11,5 @@ Submit a screenshot from a client with the document folder displaying the shared
 ---------
 # Performance
 ## Task 1
-- I created a clone of my "already created" VM. 
+- I created a clone of my "already created" VM in Linux Lab 1.
 - After creating my clone VM, I changed the clone server's name and IP address.
