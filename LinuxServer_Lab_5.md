@@ -17,7 +17,7 @@ Submit a screenshot from a client with the document folder displaying the shared
   ![Linuxlab5](/Images/Lab5-pic2.png)
   ![Linuxlab5](/Images/Lab5-pic3.png)
   ![Linuxlab5](/Images/Lab5-pic4.png)
-   ![Linuxlab5](/Images/Lab5-pic5.png)
+  ![Linuxlab5](/Images/Lab5-pic5.png)
 - After creating my clone VM, I've changed the clone server's name and IP address.
 
 ## Task 1
