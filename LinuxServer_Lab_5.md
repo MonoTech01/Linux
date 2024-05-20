@@ -13,6 +13,7 @@ Submit a screenshot from a client with the document folder displaying the shared
 
 ## Note
 - I've created a clone of my "already created" VM in Linux Lab 1.
+  ![Linuxlab5](/Images/Lab5-pic1.png)
 - After creating my clone VM, I've changed the clone server's name and IP address.
 
 ## Task 1
