@@ -30,13 +30,13 @@ Submit a screenshot from a client with the document folder displaying the shared
 
 Checked: .201
 
-![Linuxlab5](/Images/Lab5-pic6.png)
+  ![Linuxlab5](/Images/Lab5-pic6.png)
 
 Changed IP: .201 to .202 
 
-![Linuxlab5](/Images/Lab5-pic7.png)
+  ![Linuxlab5](/Images/Lab5-pic7.png)
 
-![Linuxlab5](/Images/Lab5-pic18.png)
+  ![Linuxlab5](/Images/Lab5-pic18.png)
 
 Changed host name (from lst1 to lst2) by this command: hostnamectl set-hostname lst2
 
@@ -44,19 +44,19 @@ Changed host name (from lst1 to lst2) by this command: hostnamectl set-hostname 
 ### Install and configure SAMBA in my original VM.
 
 
-![Linuxlab5](/Images/Lab5-pic10.png)
+  ![Linuxlab5](/Images/Lab5-pic10.png)
 
 - Verify
 
-![Linuxlab5](/Images/Lab5-pic11.png)
+  ![Linuxlab5](/Images/Lab5-pic11.png)
 
 ### Create a file to place in the sambashare directory
 
 Create a sambashare directory and a file in there
 
-![Linuxlab5](/Images/Lab5-pic12.png)
+  ![Linuxlab5](/Images/Lab5-pic12.png)
 
-![Linuxlab5](/Images/Lab5-pic13.png)
+  ![Linuxlab5](/Images/Lab5-pic13.png)
 
 ### Configure Samba config file
 - Edit the file
@@ -65,11 +65,11 @@ sudo nano /etc/samba/smb.conf
 
 - Add new config and save by Ctrl-O
   
-![Linuxlab5](/Images/Lab5-pic26.png)
+  ![Linuxlab5](/Images/Lab5-pic26.png)
 
 - Restart Samba and update firewall rules
 
-![Linuxlab5](/Images/Lab5-pic14.png)
+  ![Linuxlab5](/Images/Lab5-pic14.png)
 
 ### Set up Samba Client on Mono2 (the clone one)
 - Install the client
@@ -78,17 +78,17 @@ sudo nano /etc/samba/smb.conf
 
 - Set up a client samba account's password
 
-![Linuxlab5](/Images/Lab5-pic20.png)
+  ![Linuxlab5](/Images/Lab5-pic20.png)
 
 - Set up the server's path for the client
   
-![Linuxlab5](/Images/Lab5-pic22.png)
+  ![Linuxlab5](/Images/Lab5-pic22.png)
 
 # Task 1 - Result
 
 My vm2 (lst2) can access sambashare in vm1 (lst1).
 
-![Linuxlab5](/Images/Lab5-pic27.png)
+  ![Linuxlab5](/Images/Lab5-pic27.png)
 
 
 
