@@ -92,15 +92,51 @@ If you have any problem about "connection_refused", please consider to work on y
 
 
 
-
-
-
-
 # Task 1 - Result
 
 My vm2 (lst2) can access sambashare in vm1 (lst1).
 
   ![Linuxlab5](/Images/Lab5-pic27.png)
+
+# Task 2 - NFS - Server & Client Settings
+## Install NFS server on VM1 (original - lst1)
+
+  ![Linuxlab5](/Images/Lab5-pic28.png) 
+
+## Start the NFS server on VM1
+
+  ![Linuxlab5](/Images/Lab5-pic29.png)
+
+## Create a directory on VM1 + a file on the Server (VM1)
+
+  ![Linuxlab5](/Images/Lab5-pic35.png)
+
+## Change... Check IP address to set up the correct network + Apply the new configuration!
+
+  ![Linuxlab5](/Images/Lab5-pic36.png)
+
+  ![Linuxlab5](/Images/Lab5-pic38.png)
+
+## Verify on VM1
+
+  ![Linuxlab5](/Images/Lab5-pic39.png)
+
+
+## Client: VM2 (clone-lst2) - Update app and install NFS on client side
+
+  ![Linuxlab5](/Images/Lab5-pic32.png)
+
+## Create a directory to mount the NFS share on the Client (VM2)
+
+  ![Linuxlab5](/Images/Lab5-pic40.png)
+
+## Mount the NFS share on VM2 - Mount to the folder create on VM2
+
+  ![Linuxlab5](/Images/Lab5-pic41.png)
+## Verify on VM2
+
+  ![Linuxlab5](/Images/Lab5-pic42.png)
+  ![Linuxlab5](/Images/Lab5-pic43.png)
 
 
 
