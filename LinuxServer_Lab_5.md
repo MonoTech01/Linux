@@ -12,17 +12,33 @@ Submit a screenshot from a client with the document folder displaying the shared
 # Performance
 
 ## Note
-- I've created a clone of my "already created" VM in Linux Lab 1.
+- I created a clone of my "already created" VM in Linux Lab 1.
   ![Linuxlab5](/Images/Lab5-pic1.png)
+  
   ![Linuxlab5](/Images/Lab5-pic2.png)
+  
   ![Linuxlab5](/Images/Lab5-pic3.png)
+  
   ![Linuxlab5](/Images/Lab5-pic4.png)
   
+  
   ![Linuxlab5](/Images/Lab5-pic5.png)
-- After creating my clone VM, I've changed the clone server's name and IP address.
+  
+- After creating my clone VM, it had the same IP address and name with my 1st VM's. That is why I m changes in Netplan below!
+
+Checked: .201
+
+![Linuxlab5](/Images/Lab5-pic6.png)
+
+Changed: .201 to .202 
+![Linuxlab5](/Images/Lab5-pic7.png)
+
 
 ## Task 1
-### Install and configure SAMBA in my original VM
+### Install and configure SAMBA in my original VM.
+
+
+![Linuxlab5](/Images/Lab5-pic10.png)
 
 - Verify
 
