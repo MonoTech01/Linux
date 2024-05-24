@@ -60,7 +60,9 @@ Create a sambashare directory and a file in there
 
 ### Configure Samba config file
 - Edit the file
+  
 sudo nano /etc/samba/smb.conf
+
 - Add new config and save by Ctrl-O
   
 ![Linuxlab5](/Images/Lab5-pic26.png)
@@ -72,16 +74,19 @@ sudo nano /etc/samba/smb.conf
 ### Set up Samba Client on Mono2 (the clone one)
 - Install the client
 
-sudo apt install smbclient
+  sudo apt install smbclient
 
 - Set up a client samba account's password
 
 ![Linuxlab5](/Images/Lab5-pic20.png)
 
 - Set up the server's path for the client
+  
 ![Linuxlab5](/Images/Lab5-pic22.png)
 
-# Result
+# Task 1 - Result
+
+My vm2 (lst2) can access sambashare in vm1 (lst1).
 
 ![Linuxlab5](/Images/Lab5-pic27.png)
 
