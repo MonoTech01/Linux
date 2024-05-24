@@ -84,6 +84,18 @@ sudo nano /etc/samba/smb.conf
   
   ![Linuxlab5](/Images/Lab5-pic22.png)
 
+### Note - troubleshooting
+
+If you have any problem about "connection_refused", please consider to work on you firewall. I had the problem and fixed it with the following commands.
+
+  ![Linuxlab5](/Images/Lab5-pic19.png)
+
+
+
+
+
+
+
 # Task 1 - Result
 
 My vm2 (lst2) can access sambashare in vm1 (lst1).
