@@ -13,7 +13,7 @@ Submit a screenshot from a client with the document folder displaying the shared
 
 ## Note
 - I created a clone of my "already created" VM in Linux Lab 1.
-- 
+
   ![Linuxlab5](/Images/Lab5-pic1.png)
   
   ![Linuxlab5](/Images/Lab5-pic2.png)
