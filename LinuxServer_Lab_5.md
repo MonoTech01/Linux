@@ -13,6 +13,8 @@ Submit a screenshot from a client with the document folder displaying the shared
 
 ## Note
 - I created a clone of my "already created" VM in Linux Lab 1.
+  
+  ![Linuxlab5](/Images/Lab5-pic8.png)
 
   ![Linuxlab5](/Images/Lab5-pic1.png)
   
@@ -22,19 +24,21 @@ Submit a screenshot from a client with the document folder displaying the shared
   
   ![Linuxlab5](/Images/Lab5-pic4.png)
   
-  
   ![Linuxlab5](/Images/Lab5-pic5.png)
   
-- After creating my clone VM, it had the same IP address and name with my 1st VM's. That is why I m changes in Netplan below!
+- After creating my clone VM, it had the same IP address and name with my 1st VM's. I had to change them! 
 
 Checked: .201
 
 ![Linuxlab5](/Images/Lab5-pic6.png)
 
-Changed: .201 to .202 
+Changed IP: .201 to .202 
 
 ![Linuxlab5](/Images/Lab5-pic7.png)
 
+![Linuxlab5](/Images/Lab5-pic18.png)
+
+Changed host name (from lst1 to lst2) by this command: hostnamectl set-hostname lst2
 
 ## Task 1
 ### Install and configure SAMBA in my original VM.
@@ -44,14 +48,26 @@ Changed: .201 to .202
 
 - Verify
 
+![Linuxlab5](/Images/Lab5-pic11.png)
+
 ### Create a file to place in the sambashare directory
-Before creating a file, I've created a sambashare directory.
+
+Create a sambashare directory and a file in there
+
+![Linuxlab5](/Images/Lab5-pic12.png)
+
+![Linuxlab5](/Images/Lab5-pic13.png)
 
 ### Configure Samba config file
 - Edit the file
 sudo nano /etc/samba/smb.conf
 - Add new config and save by Ctrl-O
+  
+![Linuxlab5](/Images/Lab5-pic26.png)
+
 - Restart Samba and update firewall rules
+
+![Linuxlab5](/Images/Lab5-pic14.png)
 
 ### Set up Samba Client on Mono2 (the clone one)
 - Install the client
@@ -60,7 +76,17 @@ sudo apt install smbclient
 
 - Set up a client samba account's password
 
+![Linuxlab5](/Images/Lab5-pic20.png)
+
 - Set up the server's path for the client
+![Linuxlab5](/Images/Lab5-pic22.png)
+
+# Result
+
+![Linuxlab5](/Images/Lab5-pic27.png)
+
+
+
   
 
 
