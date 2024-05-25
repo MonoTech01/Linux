@@ -82,7 +82,9 @@ sudo nano /etc/samba/smb.conf
 
 - Set up the server's path for the client
   
-  ![Linuxlab5](/Images/Lab5-pic22.png)
+ smbclient //192.168.10.201/my_sambashare -U monotech
+
+ Note: the "my_sambashare" should match with the name that I configured in the samba config file!
 
 ### Note - troubleshooting
 
