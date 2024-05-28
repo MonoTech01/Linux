@@ -46,7 +46,7 @@ Changed host name (from lst1 to lst2) by this command: hostnamectl set-hostname 
 
   ![Linuxlab5](/Images/Lab5-pic10.png)
 
-- Verify
+Verify
 
   ![Linuxlab5](/Images/Lab5-pic11.png)
 
