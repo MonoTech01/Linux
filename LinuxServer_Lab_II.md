@@ -37,7 +37,9 @@
 # 1
 - Access to my first vm lst2 and generate SSH key
 
-ssh-keygen -t ed25519 -C "lst2
+ssh-keygen -t ed25519 -C "lst2"
+
+![Linux](/Images/Lab2-pic0.png)
 
 ssh-keygen: This is the command used to generate SSH key pairs.
 
@@ -48,15 +50,32 @@ ssh-keygen: This is the command used to generate SSH key pairs.
 Verify 
 ls -l .ssh
 
+![Linux](/Images/Lab2-pic1.png)
+
 - Copy the key to a target VM (VM1: lst1)
 
+![Linux](/Images/Lab2-pic2.png)
+
 - Go to the VM1 to check for the key that is added by lst2
-cat .ssh/authorized_keys
+  
+When I go to VM1, it does not ask for a password anymore!
+
+![Linux](/Images/Lab2-pic3.png)
+
+Verify: cat .ssh/authorized_keys
+
+![Linux](/Images/Lab2-pic4.png)
+
+
 - Edit sshd configuration to enable Certificate-based Authentication and disable Password authentication (in VM1)
 nano by changing PubkeyAuthentication yes and PasswordAuthentication no
 
+![Linux](/Images/Lab2-pic5.png)
+
 - Troubleshoot:
 It did not allow me to save <- permission denied
+
+![Linux](/Images/Lab2-pic5.2.png)
 
 I changed mode for the file
 
@@ -64,11 +83,16 @@ u + w
 
 W for write permission
 
-Result: editable + save
+Result: editable + save. Remember using sudo to "nano" the file
 
+![Linux](/Images/Lab2-pic5.3.png)
+![Linux](/Images/Lab2-pic5.png)
 
 - Verify
-cat 
+sudo cat /etc/ssh/sshd_config
+![Linux](/Images/Lab2-pic6.png)
+
+
 
 
 
