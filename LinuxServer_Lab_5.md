@@ -140,6 +140,9 @@ My vm2 (lst2) can access sambashare in vm1 (lst1).
   ![Linuxlab5](/Images/Lab5-pic42.png)
   ![Linuxlab5](/Images/Lab5-pic43.png)
 
+# Submission
+ ![Linuxlab5](/Images/Lab5-pic45.png)
+
 
 
   
