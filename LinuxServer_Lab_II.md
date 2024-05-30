@@ -35,6 +35,8 @@
 -------------------------------------------------------------------------------------------------------------------
 # Performance
 # 1
+- Access to my first vm lst2 and generate SSH key
+
 ssh-keygen -t ed25519 -C "lst2
 
 ssh-keygen: This is the command used to generate SSH key pairs.
@@ -42,3 +44,31 @@ ssh-keygen: This is the command used to generate SSH key pairs.
 -t ed25519: This option specifies the type of key to generate. In this case, it's set to ed25519, which is a modern and secure elliptic curve cryptography (ECC) algorithm for SSH keys.
 
 -C "lst2": This option adds a comment to the generated key pair. The comment here is set to "lst2", which can be helpful for identifying the key's purpose or association with a specific server (like lst2 in this case).
+
+Verify 
+ls -l .ssh
+
+- Copy the key to a target VM (VM1: lst1)
+
+- Go to the VM1 to check for the key that is added by lst2
+cat .ssh/authorized_keys
+- Edit sshd configuration to enable Certificate-based Authentication and disable Password authentication (in VM1)
+nano by changing PubkeyAuthentication yes and PasswordAuthentication no
+
+- Troubleshoot:
+It did not allow me to save <- permission denied
+
+I changed mode for the file
+
+u + w
+
+W for write permission
+
+Result: editable + save
+
+
+- Verify
+cat 
+
+
+
