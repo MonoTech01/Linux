@@ -54,6 +54,8 @@ Verify
 
 Create a sambashare directory and a file in there
 
+I remade the new one my_sambashare directory and samba.file in there! Please consider the pictures below refering to my_sambashare instead of sambashare!
+
   ![Linuxlab5](/Images/Lab5-pic12.png)
 
   ![Linuxlab5](/Images/Lab5-pic13.png)
