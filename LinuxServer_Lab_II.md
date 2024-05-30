@@ -66,7 +66,6 @@ Verify: cat .ssh/authorized_keys
 
 ![Linux](/Images/Lab2-pic4.png)
 
-
 - Edit sshd configuration to enable Certificate-based Authentication and disable Password authentication (in VM1)
 nano by changing PubkeyAuthentication yes and PasswordAuthentication no
 
@@ -83,7 +82,7 @@ u + w
 
 W for write permission
 
-Result: editable + save. Remember using sudo to "nano" the file
+Result: editable + save (Ctrl 0, then Ctrl X). Remember using sudo to "nano" the file
 
 ![Linux](/Images/Lab2-pic5.3.png)
 ![Linux](/Images/Lab2-pic5.png)
