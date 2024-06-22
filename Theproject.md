@@ -10,21 +10,16 @@ DNS correctly resolves www.lst.lanLinks to an external site. to the Apache2 web 
 Client using DHCP from the DHCP and DNS server running on IP at 192.168.59.201
  
 
-TASK
-
- 
-
+# TASK
 Provide a screenshot of DHCP and resolvectl output for the DHCP Client
 Implement Docker on lst2. Provide a screenshot of a “docker version” output.
 Replace the existing Apache2 configuration with a Docker container on lst2. Provide a screenshot of your running “docker ps” command showing the Docker container running
 Provide a screenshot of existing Apache2 services not running (the service that was replaced by your Docker container)
 Provide a screenshot of either a curl or web browser navigating to www.lst.lanLinks to an external site. from a DHCP client
-Grading:
 
+# Grading:
 Accessing the Apache server running on a DHCP client 30 points
-
 Docker installed on lst2              20 points
-
 Apache2 correctly running in a container 100 points
 
  
